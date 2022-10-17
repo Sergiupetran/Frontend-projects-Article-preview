@@ -90,10 +90,11 @@ button{
 @media screen and (min-width: 600px){
 main{
 	display: flex;
+	margin: 20px;
 }
 .image{
 	width:40%;
-	height: 250px;
+	height: 300px;
 	display:flex;
 	justify-content:flex-start;
 	border-radius: 15px 0px 0px 15px;
@@ -104,6 +105,8 @@ main{
 	background-color: white;
 	line-height: 1.6;
 	margin-right: 20px;
+	width: 45%;
+	height: 300px;
 }
 .first{
 	font-family: 'manrope' ,sans-serif;
@@ -174,4 +177,97 @@ button{
 	background-color:hsl(212, 23%, 69%);
 	border-radius: 50%;
 	padding: 10px;
+}
+}
+@media screen and (min-width: 1000px){
+	main{
+	display: flex;
+	margin: 20px;
+}
+.image{
+	width:30%;
+	height: 250px;
+	display:flex;
+	justify-content:flex-start;
+	border-radius: 15px 0px 0px 15px;
+}
+.container{
+	margin-top: 0px;
+	margin-left: 30px;
+	background-color: white;
+	line-height: 1.6;
+	margin-right: 20px;
+	width: 30%;
+	height: 300px;
+}
+.first{
+	font-family: 'manrope' ,sans-serif;
+	font-weight: 700;
+	color: hsl(217, 19%, 35%);
+	font-size: 17px;
+}
+.second{
+	font-family: 'manrope' ,sans-serif;
+	font-weight: 500;
+	color: hsl(212, 23%, 69%);
+	font-size: 13px;
+}
+.second-container{
+	display: flex;
+	background-color: white;
+	margin-top: 30px;
+}
+.avatar{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+.paragraph{
+	display: inline-block;
+	font-family: 'manrope' ,sans-serif;
+	color: hsl(217, 19%, 35%);
+	font-weight: 700;
+	margin-left: 20px;
+	letter-spacing: 2px;
+	font-size: 13px;
+	margin-bottom: 10px;
+	line-height: 1.6;
+}
+button{
+	float: right;
+	background-color: hsl(210, 46%, 95%);
+	border: none;
+	margin-left: 100px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-top: 10px;
+}
+.date{
+	font-family: 'manrope' ,sans-serif;
+	color: hsl(212, 23%, 69%);
+}
+.active{
+	height: 80px;
+	background-color: hsl(217, 19%, 35%);
+	border-radius: 0px 0px 15px 15px;
+	display: none;
+}
+.share{
+	display: inline-block;
+	margin: 30px;
+	color:hsl(212, 23%, 69%);
+	letter-spacing: 3px;
+	font-size: 15px;
+}
+.fa-brands{
+	margin: 10px;
+	font-size: 25px;
+}
+.second-button {
+	margin-left: 60px;
+	background-color:hsl(212, 23%, 69%);
+	border-radius: 50%;
+	padding: 10px;
+}
 }
