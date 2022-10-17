@@ -1,5 +1,5 @@
 @media screen and (max-width: 600px){
-body{
+main{
 	margin: 0px;
 	display: inline;
 }
@@ -88,7 +88,7 @@ button{
 }
 }
 @media screen and (min-width: 600px){
-body{
+main{
 	display: flex;
 }
 .image{
