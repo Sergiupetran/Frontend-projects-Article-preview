@@ -89,8 +89,10 @@ button{
 }
 @media screen and (min-width: 600px){
 main{
+	padding-top:100px;
 	display: flex;
 	margin: 20px;
+	justify-content:center;
 }
 .image{
 	width:40%;
@@ -180,7 +182,9 @@ button{
 }
 }
 @media screen and (min-width: 1000px){
-	main{
+main{
+	justify-content:center;
+	padding-top:200px;
 	display: flex;
 	margin: 20px;
 }
